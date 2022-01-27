@@ -1,6 +1,5 @@
 {
-	"version": "2.0.0",
-	"tasks": [
+    "tasks": [
 		{
 			"type": "cppbuild",
 			"label": "C/C++: clang++ 활성 파일 빌드",
@@ -9,7 +8,7 @@
 				"-std=c++17",
 				"-stdlib=libc++",
 				"-g",
-				"${fileDirname}/**.cpp",
+				"${fileDirname}/*.cpp",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}"
 			],
@@ -23,7 +22,8 @@
 				"kind": "build",
 				"isDefault": true
 			},
-			"detail": "컴파일러: /usr/bin/clang++"
+			"detail": "디버거에서 생성된 작업입니다."
 		}
-	]
+	],
+    "version": "2.0.0"
 }

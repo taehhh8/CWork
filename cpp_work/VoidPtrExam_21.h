@@ -1,1 +1,0 @@
-void increase(void *data, int pSize);
