@@ -29,3 +29,14 @@ CBox CBox::operator+(const CBox& b)
 
     return box;
 }
+
+// CBox CBox::operator*(const CBox& b)
+// {
+//     CBox box;
+//     box.m_length = this->m_length * b.m_length;
+//     box.m_breadth = this->m_breadth * b.m_breadth;
+//     box.m_height = this->m_height * b.m_height;
+
+//     return box;
+// }
+

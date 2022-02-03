@@ -31,8 +31,8 @@ int main()
 
     box3 = box1 + box2; //더해줄 box box1 = this  그냥 변수이름은 주소이다.
     volume = box3.GetVolume();
-    // cout << "Volume of box3 : " << volume << endl;
-    cout << "Volume of box3 : " << (box1 + box2).GetVolume() << endl;
+    cout << "Volume of box3 : " << volume << endl;
+    // cout << "Volume of box3 : " << (box1 + box2).GetVolume() << endl;
 
 
 
